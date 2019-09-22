@@ -10,6 +10,9 @@
    
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/70ccb402bc.js" crossorigin="anonymous"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -24,7 +27,7 @@
                     <li>Call us!</li>
                 </div>
                 <div>
-                    <p id="nav-call-number"><span></span>+38 (050) 557-65-26</p>
+                    <p id="nav-call-number"><i class="fas fa-phone"></i>+38 (050) 557-65-26</p>
                 </div>
             </ul>
           

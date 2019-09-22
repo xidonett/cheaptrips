@@ -7,7 +7,7 @@ body{
 nav{
     display: inline;
     position: relative;
-    top: 3.205em;
+    top: 3em;
     left: 3.04em;
 }
 
@@ -18,11 +18,21 @@ nav{
 ul#nav-options{
     list-style-type: none;
     color: white;
-    font-size: 1.3em;
+    font-size: 1.35em;
 }
 ul#nav-options li{
     display: inline;
-    margin-right: 1em;
+    margin-right: 1.675em;
+    position: relative;
+    left: 2.2em;
+    font-weight: 300;
+}
+#nav-call-number{
+    position: relative;
+    font-size: 1.2em;
+    top: -0.15em;
+    left: -4.27em;
+    font-weight: 600;
 }
 
 span{
