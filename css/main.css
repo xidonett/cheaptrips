@@ -34,8 +34,26 @@ ul#nav-options li{
     left: -4.27em;
     font-weight: 600;
 }
-
-span{
-    font-family: "Font Awesome 5";
+#wow-opera-bg{
+    position: relative;
+    left: 5%;
+    z-index: -10;
 }
-
+#wow-black-sea{
+    z-index: 10;
+    margin-left: 15%;
+}
+#wow-blobs{
+    position: relative;
+    z-index: 5;
+    top: 11%;
+    left: 0.5%;
+    transform: scale(0.8);
+}
+#wow-caption{
+    position: relative;
+    z-index: 15;
+    margin-top: 40%;
+    margin-left: 45%;
+    transform: scale(0.8);
+}

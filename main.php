@@ -13,6 +13,12 @@
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <!-- Parallax.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    
+    <!-- Main JS file -->
+    <script src="js/main.js"></script>
 
 </head>
 <body>
@@ -32,8 +38,17 @@
             </ul>
           
         </nav>
+        <div id="wow-effect-block">
+            <img src="resources/wow_effect/background_odessa.png" alt="Opera in Odessa" id="wow-opera-bg" width="1350" height="800" data-depth="0.2" />
+            <img src="resources/wow_effect/black_sea.png" alt="Black sea in Odessa" id="wow-black-sea" width="1100" height="800" data-depth="0.1"/>
+            <img src="resources/wow_effect/blobs.png" alt="Design Blobs" id="wow-blobs" data-depth="0.9"/>
+            <img src="resources/wow_effect/main_header.png" alt="Caption" id="wow-caption" data-depth="0.3"/>  
+        </div>
     </div>
-    
+    <script>
+        var scene = document.getElementById("wow-effect-block");
+        var parallax = new Parallax(scene);
+    </script>
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
