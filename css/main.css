@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
 body{
     overflow-x: hidden;
     background-image: url(../resources/misc/Background.png);
-    font-family: "Montserrat";
 }
-
 nav{
     display: inline;
     position: relative;
     top: 3em;
     left: 3.04em;
 }
-
 #nav-first-option{
     margin-left: 1em;
 }
@@ -26,6 +28,7 @@ ul#nav-options li{
     position: relative;
     left: 2.2em;
     font-weight: 300;
+    font-family: "Montserrat";
 }
 #nav-call-number{
     position: relative;
@@ -56,4 +59,55 @@ ul#nav-options li{
     margin-top: 40%;
     margin-left: 45%;
     transform: scale(0.8);
+}
+#bd-purple-spot{
+    position: absolute;
+    top: 860px;
+    margin-left: 47%;
+}
+#bd-caption{
+    position: absolute;
+    top: 1150px;
+    margin-left: 56%;
+}
+.bd-option{
+     transition-duration: 0.2s;
+     position: absolute;
+     z-index: 1;
+}
+.bd-option:hover{
+    transform: scale(1.05);
+    filter: brightness(1.08);
+    cursor: pointer;
+}
+.bd-option[alt="Light +"]{
+    top: 1170px;
+    left: 10px;
+}
+.bd-option[alt="Sea"]{
+    top: 1270px;
+    left: 410px;
+}
+.bd-option[alt="City life"]{
+    top: 1370px;
+    left: 810px;
+}
+#bd-option-g-spots{
+    z-index: -5;
+    position: absolute;
+    top: 930px;
+    transform: scale(0.8);
+    right: -100px;
+}
+#adv-arcadia{
+    position: absolute;
+    top: 1700px;
+    left: -3%;
+    transform: scale(0.9);
+}
+#adv-advantages{
+    position: absolute;
+    top: 1700px;
+    left: 54%;
+    transform: scale(0.7);
 }
